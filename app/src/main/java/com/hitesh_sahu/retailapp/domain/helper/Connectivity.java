@@ -63,7 +63,7 @@ public class Connectivity {
      * Check if there is any connectivity to a Wifi network
      *
      * @param context
-     * @param type
+     * @param context
      * @return
      */
     public static boolean isConnectedWifi(Context context) {
@@ -75,7 +75,7 @@ public class Connectivity {
      * Check if there is any connectivity to a mobile network
      *
      * @param context
-     * @param type
+     * @param context
      * @return
      */
     public static boolean isConnectedMobile(Context context) {
@@ -187,7 +187,7 @@ public class Connectivity {
      *
      * @param filename
      * @return
-     * @throws java.io.IOException
+     *
      */
     public static String loadFileAsString(String filename)
             throws java.io.IOException {
@@ -258,7 +258,7 @@ public class Connectivity {
     /**
      * Get IP address from first non-localhost interface
      *
-     * @param ipv4 true=return ipv4, false=return ipv6
+     * @param  true=return ipv4, false=return ipv6
      * @return address or empty string
      */
     public static String getIPAddress(boolean useIPv4) {

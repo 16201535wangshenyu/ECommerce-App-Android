@@ -40,10 +40,7 @@ public class MyCartFragment extends Fragment implements OnStartDragListener {
     public MyCartFragment() {
     }
 
-    /**
-     * @param rootView
-     * @param myCartListView
-     */
+
     public static void updateMyCartFragment(boolean showList) {
 
         if (showList) {
